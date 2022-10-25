@@ -1,3 +1,0 @@
-﻿  prob_3.cpp
-C:\Users\Vivobook Pro M7600QE\Desktop\cju_window\prob_67\prob_3\prob_3.cpp(33,12): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  prob_3.vcxproj -> C:\Users\Vivobook Pro M7600QE\Desktop\cju_window\prob_67\x64\Debug\prob_3.exe

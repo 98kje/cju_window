@@ -1,5 +1,0 @@
-﻿  prob_4.cpp
-C:\Users\Vivobook Pro M7600QE\Desktop\cju_window\prob5\prob5\prob_4.cpp(12,9): warning C4552: '!=': 식의 결과가 사용되지 않습니다.
-C:\Users\Vivobook Pro M7600QE\Desktop\cju_window\prob5\prob5\prob_4.cpp(5,6): warning C4101: 'a' :참조되지 않은 지역 변수입니다.
-C:\Users\Vivobook Pro M7600QE\Desktop\cju_window\prob5\prob5\prob_4.cpp(5,9): warning C4101: 'b' :참조되지 않은 지역 변수입니다.
-  prob5.vcxproj -> C:\Users\Vivobook Pro M7600QE\Desktop\cju_window\prob5\x64\Debug\prob5.exe
