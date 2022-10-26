@@ -19,4 +19,5 @@ extern char symbols;
 extern double value;
 
 
+
 #endif

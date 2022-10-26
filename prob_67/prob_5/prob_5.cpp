@@ -61,8 +61,8 @@ int main(void)
 		Kvalue_Horiz(K_h, Z_h, input_num);
 		printZK_V(Z_v, K_v, input_num);
 		printZK_H(Z_h, K_h, input_num);
-		v = sizeof(ReVerti) / sizeof(double);
-		z = sizeof(ReHoriz) / sizeof(double);
+		v = sizeof(ReVerti) / sizeof(double);   //Reverti count where Reverti is the new value
+		z = sizeof(ReHoriz) / sizeof(double);   //ReHoriz count where ReHoriz is the new value
 
 		while (1)
 		{
@@ -165,8 +165,8 @@ int main(void)
 			count++;
 		}
 	}
-	printf("\n\n ========== 100회 중 %d회 적중했습니다 ==========\n\n",count);
-	printf("\n\n ========== 성공확률 : %.2lf ==========\n\n", (double)count / input_num);
+	printf("\n\n ========== %dcount of 100 hits ==========\n\n",count);
+	printf("\n\n ========== Probability of success : %.2lf ==========\n\n", (double)count / input_num);
 	return 0;
 	
 }
@@ -371,5 +371,3 @@ void print_XH(double* Xh, int Size)
 		printf("%.2lf\t", Xh[i]);
 	}
 }
-
-

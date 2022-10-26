@@ -35,12 +35,12 @@ int main(void)
 
 	}
 	average = total / LENGTH;
-	printf("\naverage : %lf\n\n", average);
+	printf("\n\naverage : %lf\n\n", average);
 	for (int l = 0; l < LENGTH; l++)
 	{
 		X[l] = array[l] - average;
 
-		printf("각 편차는 %lf\n", X[l]);
+		printf("\n\nEach deviation is X%d = %lf\n",l, X[l]);
 	}
 	printf("\n\n");
 	addXtotal(X, Xtotal);
@@ -64,6 +64,7 @@ void random_array(int* num, int size)
 }
 void addXtotal(double* A, double* B)
 {
+	printf(" X total = X^2\n\n");
 	for (int i = 0; i < LENGTH; i++)
 	{
 		B[i] = A[i] * A[i];
@@ -78,9 +79,11 @@ void Add_value(double* A, double B)
 	for (int i = 0; i < LENGTH; i++) {
 		B += A[i];
 	}
+
 	printf("\n\nXtotalvalule = %lf\t", B);
 	variance = B / LENGTH;
 	printf("Variance Value : %lf\n\n", variance);
 
 	printf("Standard Deviation : %lf\n\n", sqrt(variance));
+
 }

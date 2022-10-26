@@ -35,13 +35,13 @@ int main()
 	input(* pointerA, * pointerB, INPUT_LENGTH1);
 
 	
-	printf("A 행렬 출력\n");
+	printf("\tA Matrix Output\n\n");
 	printf("\t| %d, %d, %d |\n", A[0][0], A[0][1], A[0][2]);
 	printf("\t| %d, %d, %d |\n", A[1][0], A[1][1], A[1][2]);
 	
 	
 		
-	printf("\n\nB 행렬 출력\n");
+	printf("\n\n\tB Matrix Output\n\n");
 	printf("\t| %d, %d |\n", B[0][0], B[0][1]);
 	printf("\t| %d, %d |\n", B[1][0], B[1][1]);
 	printf("\t| %d, %d |\n", B[2][0], B[2][1]);
@@ -65,7 +65,7 @@ int main()
 	{
 		C[1][1] += A[1][j] * B[j][1];
 	}
-	printf("\n\nAXB 행렬 출력\n");
+	printf("\n\n\tAXB Matrix Output\n\n");
 	printf("\t| %d, %d |\n", C[0][0], C[0][1]);
 	printf("\t| %d, %d |\n", C[1][0], C[1][1]);
 	
@@ -108,7 +108,7 @@ int main()
 	}
 
 
-	printf("\n\nBXA 행렬 출력\n");
+	printf("\n\n\tBXA Matrix Output\n\n");
 	printf("\t| %d, %d ,%d |\n", D[0][0], D[0][1], D[0][2]);
 	printf("\t| %d, %d ,%d |\n", D[1][0], D[1][1], D[1][2]);
 	printf("\t| %d, %d ,%d |\n", D[2][0], D[2][1], D[2][2]);
@@ -129,5 +129,3 @@ void input(int* num1, int*num2 , int size)
 		num2[j] = rand() % 100;
 	}
 }
-
-

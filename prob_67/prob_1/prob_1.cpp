@@ -15,7 +15,7 @@ int password[Length] = { 1, 9, 1, 6 };
 
 int main(void)
 {
-	int ipPass[Length] = {};
+	int ipPass[Length] = {};   //input password
 	
 
 	while (1)
@@ -32,7 +32,6 @@ int main(void)
 		{
 			break;
 		}
-
 
 	}
 
@@ -79,4 +78,3 @@ int diff_password(int* num1, int* num2)
 	}
 	return 0;
 }
-
