@@ -13,20 +13,35 @@ int main(void)
 
 	char* ptrsplit = strtok(str, "/");
 	int counter = 0;
+
+
 	while (ptrsplit != NULL)
 	{
 		ptrF[counter] = ptrsplit;
 		counter++;
 		ptrsplit = strtok(NULL, "/");
 	}
+	printf("\n\n========== Before the change ==========\n\n");
+	for (int i = 0; i < counter; i++)
+	{
+		printf("%s/", ptrF[i]);
+	}
+	printf("\n\n");
 	for (int i = 0; i < counter; i++)
 	{
 		printf("%d, %s\n", i, ptrF[i]);
 	}
-	printf("\n\n\============ º¯°æÈÄ ========= \n\n");
+
+	printf("\n\n\========== After the change ==========\n\n");
+
 	ptrF[3] = { str2 };
 
 
+	for (int i = 0; i < counter; i++)
+	{
+		printf("%s/", ptrF[i]);
+	}
+	printf("\n\n");
 	for (int i = 0; i < counter; i++)
 	{
 		printf("%d, %s\n", i, ptrF[i]);
