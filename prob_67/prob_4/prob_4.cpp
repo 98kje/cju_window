@@ -1,3 +1,5 @@
+//중간고사 전 과제 제출
+
 #include <stdio.h>
 #include <stdbool.h>
 #include <stdlib.h>

@@ -1,3 +1,6 @@
+//중간고사 전 과제 제출
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
