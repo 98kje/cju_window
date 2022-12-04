@@ -1,3 +1,6 @@
+//17932040 김재은 2주차 과제
+
+
 #include <stdio.h>
 
 int main(void)
