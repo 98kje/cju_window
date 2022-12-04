@@ -1,3 +1,5 @@
+//17932040 김재은 4주차 과제
+
 #include <stdio.h>
 
 #define TWENTY 20
