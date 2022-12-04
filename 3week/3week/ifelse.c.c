@@ -1,3 +1,5 @@
+//17932040 3주차 과제
+
 #include <stdio.h>
 
 #define MAXLIMIT 40
