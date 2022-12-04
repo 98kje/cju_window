@@ -1,3 +1,6 @@
+//17932040 김재은 5주차 수업내용 중
+// 별찍기 연습
+
 #include <stdio.h>
 
 int main(void)

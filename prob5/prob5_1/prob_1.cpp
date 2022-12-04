@@ -1,3 +1,5 @@
+//17932040 김재은 5주차 과제
+
 #include <stdio.h>
 
 int main(void)
