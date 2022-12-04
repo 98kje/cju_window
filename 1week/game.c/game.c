@@ -1,5 +1,5 @@
-#include <stdio.h>
 //make Rock Paper Scissors
+#include <stdio.h>
 
 int main(void)
 {
